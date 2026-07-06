@@ -29,7 +29,7 @@ export class ProjectDetailComponent {
         'https://github.com/haocopider/portfolio/blob/main/src/assets/bidascore/cpool_screen.jpg?raw=true',
         'https://github.com/haocopider/portfolio/blob/main/src/assets/bidascore/penalty_screen.jpg?raw=true',
         'https://github.com/haocopider/portfolio/blob/main/src/assets/bidascore/apool_screen.jpg?raw=true',
-        'https://github.com/haocopider/portfolio/blob/main/src/assets/bidascore/results_screen.jpg?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bidascore/result_screen.jpg?raw=true',
       ],
     },
     {
