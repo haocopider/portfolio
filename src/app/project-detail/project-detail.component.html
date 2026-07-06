@@ -1,0 +1,27 @@
+<main class="detail-shell">
+  <a class="back-link" [routerLink]="['/']">← Back to portfolio</a>
+
+  <section class="hero-panel">
+    <div>
+      <p class="eyebrow">Project detail</p>
+      <h1>{{ project.title }}</h1>
+      <p class="lead">{{ project.description }}</p>
+      <p>{{ project.longDescription }}</p>
+
+      <div class="tech-list">
+        <span *ngFor="let tag of project.tech">{{ tag }}</span>
+      </div>
+    </div>
+
+    <div class="highlight-card">
+      <h2>Highlights</h2>
+      <ul>
+        <li *ngFor="let item of project.highlights">{{ item }}</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <img *ngFor="let image of project.images" [src]="image" [alt]="project.title" />
+  </section>
+</main>
