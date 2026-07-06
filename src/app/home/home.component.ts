@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
+
 interface Project {
   id: string;
   title: string;
@@ -67,7 +68,7 @@ export class HomeComponent {
         'Bida Score was designed to make scorekeeping feel effortless during every match. The app focuses on clarity, quick interactions, and a lightweight experience that players can use right away.',
       tech: ['Flutter', 'Mobile UX', 'Product Design'],
       highlights: ['Real-time match tracking', 'Clean score history', 'Accessible interactions'],
-      image: 'https://github.com/haocopider/portfolio/blob/main/src/assets/bidascore/penalty.jpg?raw=true',
+      image: 'https://github.com/haocopider/portfolio/blob/main/src/assets/bidascore/penalty_screen.jpg?raw=true',
       isAvailable: true,
     },
     {
