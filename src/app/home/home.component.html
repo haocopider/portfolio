@@ -77,7 +77,11 @@
         <div class="tech-list">
           <span *ngFor="let tag of project.tech">{{ tag }}</span>
         </div>
-        <a [routerLink]="['/projects', project.id]">View project</a>
+        <div class="project-footer">
+          <span *ngIf="!project.isAvailable" class="status-pill">{{ project.statusLabel }}</span>
+          <a *ngIf="project.isAvailable" [routerLink]="['/projects', project.id]">View project</a>
+          <span *ngIf="!project.isAvailable" class="disabled-link">Not available yet</span>
+        </div>
       </article>
     </div>
   </section>

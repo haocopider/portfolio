@@ -10,6 +10,8 @@ interface Project {
   tech: string[];
   highlights: string[];
   image: string;
+  isAvailable: boolean;
+  statusLabel?: string;
 }
 
 interface Skill {
@@ -26,7 +28,7 @@ interface Skill {
 })
 export class HomeComponent {
   title = 'ITer Portfolio';
-  name = 'Hào Phan';
+  name = 'Hao Phan';
   role = 'Product-minded Full-Stack Developer';
   summary =
     'I craft bright, thoughtful digital experiences with Angular, .NET, Flutter, and a strong focus on clarity, performance, and user delight.';
@@ -65,8 +67,8 @@ export class HomeComponent {
         'Bida Score was designed to make scorekeeping feel effortless during every match. The app focuses on clarity, quick interactions, and a lightweight experience that players can use right away.',
       tech: ['Flutter', 'Mobile UX', 'Product Design'],
       highlights: ['Real-time match tracking', 'Clean score history', 'Accessible interactions'],
-      image:
-        'https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=900&q=80',
+      image: 'https://github.com/haocopider/portfolio/blob/main/src/assets/bidascore/penalty.jpg?raw=true',
+      isAvailable: true,
     },
     {
       id: 'bida-tournament',
@@ -76,8 +78,9 @@ export class HomeComponent {
         'The tournament experience combines web and mobile touchpoints so organizers can manage the event while participants stay updated in real time.',
       tech: ['Angular', 'Flutter', 'Real-time'],
       highlights: ['Organizer dashboard', 'Live event updates', 'Player-friendly mobile flow'],
-      image:
-        'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=900&q=80',
+      image: 'https://img.freepik.com/free-vector/gradient-tournament-schedule-template_52683-95156.jpg',
+      isAvailable: false,
+      statusLabel: 'In development',
     },
     {
       id: 'bida-class',
@@ -87,8 +90,9 @@ export class HomeComponent {
         'Bida Class brings structured lessons and a modern storefront experience together so learners can discover courses and stay inspired.',
       tech: ['Angular', 'E-commerce', 'Learning flow'],
       highlights: ['Course discovery', 'Structured lesson paths', 'Bright visual storytelling'],
-      image:
-        'https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=900&q=80',
+      image: 'https://matchroompool.com/wp-content/uploads/HANOI2024-1920x1080-2.jpg',
+      isAvailable: false,
+      statusLabel: 'In development',
     },
   ];
 

@@ -24,9 +24,10 @@ export class ProjectDetailComponent {
       tech: ['Flutter', 'Mobile UX', 'Design System'],
       highlights: ['Quick score input', 'Accessible UI', 'Readable match history'],
       images: [
-        'https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=900&q=80',
-        'https://images.unsplash.com/photo-1517404215738-15263e9f9178?auto=format&fit=crop&w=900&q=80',
-        'https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=900&q=80',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bidascore/home.jpg?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bidascore/chinese.jpg?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bidascore/penalty.jpg?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bidascore/american.jpg?raw=true'
       ],
     },
     {
