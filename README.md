@@ -1,59 +1,89 @@
-# AngularPortfolio
+# 👋 Phan Nhựt Hào - Portfolio
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.0.
+Welcome to my personal portfolio website.
 
-## Development server
+This website showcases my projects, technical skills, education, and experience as a software developer.
 
-To start a local development server, run:
+## 🌐 Live Demo
+
+Visit the website:
+
+https://haocopider.github.io/portfolio/
+
+## 🚀 About Me
+
+I am a software developer with experience in:
+
+- Flutter Mobile Development
+- Angular Web Development
+- ASP.NET Core Web API
+- SQL Server
+- Firebase
+- Git & GitHub
+
+I enjoy building modern, user-friendly, and scalable applications.
+
+## 🛠️ Technologies Used
+
+- Angular 19
+- TypeScript
+- HTML5
+- CSS3
+- Bootstrap
+- GitHub Pages
+
+## 📸 Portfolio Sections
+
+- Home
+- About Me
+- Skills
+- Services
+- Projects
+- Contact
+
+## ⚙️ Development
+
+Clone the repository:
+
+```bash
+git clone https://github.com/haocopider/portfolio.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run locally:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Open:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```text
+http://localhost:4200
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+## 📦 Build
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 🚀 Deployment
 
-## Running unit tests
+This portfolio is deployed using GitHub Pages.
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## 📫 Contact
 
-```bash
-ng test
-```
+Email: hao.jukain.dev.game@example.com
 
-## Running end-to-end tests
+GitHub:
+https://github.com/haocopider
 
-For end-to-end (e2e) testing, run:
+---
 
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+© 2026 Phan Nhựt Hào. All rights reserved.
