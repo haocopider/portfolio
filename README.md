@@ -26,10 +26,9 @@ I enjoy building modern, user-friendly, and scalable applications.
 
 ## 📫 Contact
 
-Email: hao.jukain.dev.game@example.com
+Email: haocopider544@gmail.com
 
-GitHub:
-https://github.com/haocopider
+GitHub: https://github.com/haocopider
 
 
 ## ☕ Support My Work
