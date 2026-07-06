@@ -12,8 +12,14 @@
       </div>
 
       <div class="social-links">
-        <a *ngFor="let item of socials" [href]="item.url" target="_blank" rel="noreferrer">
-          {{ item.label }}
+        <a *ngFor="let item of socials"
+          [href]="item.url"
+          target="_blank"
+          rel="noreferrer">
+
+          <i [class]="item.icon" width="50" height="50"></i>
+          <span>{{ item.label }}</span>
+
         </a>
       </div>
     </div>

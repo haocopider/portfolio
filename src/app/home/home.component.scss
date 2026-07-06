@@ -1,3 +1,5 @@
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
 :host {
   display: block;
 }
@@ -83,15 +85,29 @@
 
 .social-links {
   display: flex;
+  gap: 12px;
   flex-wrap: wrap;
-  gap: 0.8rem;
 }
 
 .social-links a {
-  color: #dce6ff;
-  padding: 0.55rem 0.8rem;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.07);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.social-links i {
+  font-size: 1.1rem;
 }
 
 .hero-card,

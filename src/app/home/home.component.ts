@@ -28,7 +28,7 @@ interface Skill {
 })
 export class HomeComponent {
   title = 'ITer Portfolio';
-  name = 'Hao Phan';
+  name = 'Hao Copider';
   role = 'Product-minded Full-Stack Developer';
   summary =
     'I craft bright, thoughtful digital experiences with Angular, .NET, Flutter, and a strong focus on clarity, performance, and user delight.';
@@ -96,9 +96,21 @@ export class HomeComponent {
     },
   ];
 
-  socials = [
-    { label: 'GitHub', url: 'https://github.com/haocopider?tab=repositories' },
-    { label: 'LinkedIn', url: 'https://www.linkedin.com/in/nh%E1%BB%B1t-h%C3%A0o-phan-72357341b/' },
-    { label: 'TikTok', url: 'https://www.tiktok.com/@pnhao544' },
-  ];
+socials = [
+  {
+    label: 'GitHub',
+    url: 'https://haocopider.github.io/portfolio/',
+    icon: 'fab fa-github'
+  },
+  {
+    label: 'Facebook',
+    url: 'https://www.facebook.com/profile.php?id=61591485732418',
+    icon: 'fab fa-facebook'
+  },
+  {
+    label: 'TikTok',
+    url: 'https://www.tiktok.com/@pnhao544',
+    icon: 'fab fa-tiktok'
+  }
+];
 }

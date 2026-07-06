@@ -19,15 +19,17 @@ export class ProjectDetailComponent {
       id: 'bida-score',
       title: 'Bida Score',
       description: 'A bright, mobile-first scoring experience for billiards lovers.',
+      url: 'https://docs.google.com/forms/d/e/1FAIpQLSeYLh1OMZ44-pyZUFFB1ZUN9cyzIrV44Vxm7mV9xe_S1fEGzA/viewform?usp=sharing&ouid=107696042319671290144',
       longDescription:
         'The app is built to feel instant and effortless during play, with a layout that stays focused on the current match and the information players need most.',
       tech: ['Flutter', 'Mobile UX', 'Design System'],
       highlights: ['Quick score input', 'Accessible UI', 'Readable match history'],
       images: [
-        'https://github.com/haocopider/portfolio/blob/main/src/assets/bidascore/home.jpg?raw=true',
-        'https://github.com/haocopider/portfolio/blob/main/src/assets/bidascore/chinese.jpg?raw=true',
-        'https://github.com/haocopider/portfolio/blob/main/src/assets/bidascore/penalty.jpg?raw=true',
-        'https://github.com/haocopider/portfolio/blob/main/src/assets/bidascore/american.jpg?raw=true'
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bidascore/home_screen.jpg?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bidascore/cpool_screen.jpg?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bidascore/penalty_screen.jpg?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bidascore/apool_screen.jpg?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bidascore/results_screen.jpg?raw=true',
       ],
     },
     {
