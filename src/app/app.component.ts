@@ -20,58 +20,61 @@ interface Skill {
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'ITer | Angular Portfolio';
-  name = 'ITer';
-  role = 'Frontend Developer & UI Engineer';
+  title = 'ITer Portfolio';
+  name = 'Hào Copider';
+  role = 'Software Developer';
   summary =
-    'I create modern, responsive web experiences with clean interfaces, thoughtful interactions, and a strong focus on usability.';
-  contactEmail = 'hello@iter.dev';
+    'The past is in your head, the future is in your hands. You just fail when you stop trying.';
+  contactEmail = 'hao.jukain.dev.game@gmail.com';
 
   stats = [
-    { value: '10+', label: 'Projects shipped' },
-    { value: '4 yrs', label: 'Experience' },
-    { value: '100%', label: 'Client-focused delivery' },
+    { value: '1+', label: 'Products' },
+    { value: '1 yrs', label: 'Experience' },
+    { value: '3+', label: 'Develop application with C#' },
   ];
 
   skills: Skill[] = [
     {
-      title: 'Angular',
-      description: 'Build scalable component-driven applications with modern Angular patterns.',
+      title: 'Flutter with Dart',
+      description: 'Build cross-platform mobile apps with a single codebase and expressive UI.',
     },
     {
-      title: 'UI Design',
-      description: 'Craft polished interfaces with responsive layouts and strong visual hierarchy.',
+      title: 'Blazor, API with C#',
+      description: 'Develop robust web applications and APIs using the .NET ecosystem.',
     },
     {
-      title: 'Performance',
-      description: 'Optimize loading, accessibility, and usability for faster, nicer experiences.',
+      title: 'WPF, WinForms with C#',
+      description: 'Create rich desktop applications with a modern UI.',
     },
   ];
 
+  about: string =
+    'I am a passionate software developer with a strong focus on creating innovative and user-friendly applications. With experience in Flutter, C#, and web development, I strive to deliver high-quality solutions that meet the needs of users and businesses alike. My goal is to continuously learn and grow as a developer, while contributing to impactful projects that make a difference.';
+
   projects: Project[] = [
     {
-      title: 'Studio Showcase',
-      description: 'A premium portfolio concept focused on storytelling, motion, and elegant layouts.',
-      tech: ['Angular', 'SCSS', 'Accessibility'],
+      title: 'Bida Score (Published)',
+      description: 'A tool for tracking billiard scores, designed with accessibility and user experience in mind.',
+      tech: ['Flutter', 'Free', 'Tool'],
       link: '#contact',
     },
     {
-      title: 'Product Landing Page',
-      description: 'A conversion-focused website with strong messaging and a modular component system.',
-      tech: ['Angular', 'TypeScript', 'Responsive UI'],
+      title: 'Bida Tournament (Progress)',
+      description: 'A web application for managing billiard tournaments(Organization). The mobile app allows players to participate in and follow the tournament. ',
+      tech: ['Angular', 'Flutter', 'Real-time'],
       link: '#contact',
     },
     {
-      title: 'Developer Brand Site',
-      description: 'A personal brand website designed to highlight projects, services, and contact details.',
-      tech: ['Angular', 'UI Systems', 'Performance'],
+      title: 'Bida Class (Preparation)',
+      description: 'The app offers billiards courses from beginner to advanced levels.',
+      tech: ['Angular', 'E-commerce'],
       link: '#contact',
     },
   ];
 
   socials = [
-    { label: 'GitHub', url: 'https://github.com' },
-    { label: 'LinkedIn', url: 'https://linkedin.com' },
-    { label: 'Email', url: 'mailto:hello@iter.dev' },
+    { label: 'GitHub', url: 'https://github.com/haocopider?tab=repositories' },
+    { label: 'LinkedIn', url: 'https://www.linkedin.com/in/nh%E1%BB%B1t-h%C3%A0o-phan-72357341b/' },
+    { label: 'Tiktok', url: 'https://www.tiktok.com/@pnhao544' },
   ];
 }
