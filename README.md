@@ -31,9 +31,9 @@ Email: haocopider544@gmail.com
 GitHub: https://github.com/haocopider
 
 
-## ☕ Support My Work
+## ☕ Donate
 
-If you find my projects helpful, you can support me by scanning the QR code below.
+If you like my products, you can support me by scanning the QR code below.
 
 <p>
   <img src="bank-qr.jpg" width="250" alt="Donate QR">
