@@ -37,7 +37,7 @@ https://github.com/haocopider
 If you find my projects helpful, you can support me by scanning the QR code below.
 
 <p align="center">
-  <img src="assets/images/bank-qr.png" width="250" alt="Donate QR">
+  <img src="bank-qr.jpg" width="250" alt="Donate QR">
 </p>
 
 Thank you for your support ❤️
