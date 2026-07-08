@@ -83,6 +83,17 @@
   color: #f2f6ff;
 }
 
+.btn-download {
+  background: rgba(235, 4, 4, 0.87);
+  color: #f2f6ff;
+  border-color: rgb(243, 245, 248);
+  gap: 0.55rem;
+}
+
+.btn-download:hover {
+  background: rgba(143, 176, 255, 0.16);
+}
+
 .social-links {
   display: flex;
   gap: 12px;

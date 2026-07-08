@@ -34,6 +34,7 @@ export class HomeComponent {
   summary =
     'I craft bright, thoughtful digital experiences with Angular, .NET, Flutter, and a strong focus on clarity, performance, and user delight.';
   contactEmail = 'haocopider544@gmail.com';
+  cvUrl = '/cv/PHAN-NHUT-HAO-CV.pdf';
 
   stats = [
     { value: '3+', label: 'Launch-ready apps' },
