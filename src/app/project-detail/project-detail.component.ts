@@ -19,7 +19,7 @@ export class ProjectDetailComponent {
       id: 'bida-score',
       title: 'Bida Score',
       description: 'A bright, mobile-first scoring experience for billiards lovers.',
-      url: 'https://docs.google.com/forms/d/e/1FAIpQLSeYLh1OMZ44-pyZUFFB1ZUN9cyzIrV44Vxm7mV9xe_S1fEGzA/viewform?usp=sharing&ouid=107696042319671290144',
+      url: 'https://drive.google.com/file/d/1beXW__uTrHLfuPzMpO97AHgD7Mt_gBEv/view?usp=sharing',
       longDescription:
         'The app is built to feel instant and effortless during play, with a layout that stays focused on the current match and the information players need most.',
       tech: ['Flutter', 'Mobile UX', 'Design System'],

@@ -101,12 +101,12 @@ export class HomeComponent {
 socials = [
   {
     label: 'GitHub',
-    url: 'https://haocopider.github.io/portfolio/',
+    url: 'https://github.com/haocopider/portfolio',
     icon: 'fab fa-github'
   },
   {
     label: 'Facebook',
-    url: 'https://www.facebook.com/profile.php?id=61591485732418',
+    url: 'https://www.facebook.com/pnhao544',
     icon: 'fab fa-facebook'
   },
   {
