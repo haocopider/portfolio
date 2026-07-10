@@ -34,7 +34,7 @@ export class HomeComponent {
   summary =
     'I craft bright, thoughtful digital experiences with Angular, .NET, Flutter, and a strong focus on clarity, performance, and user delight.';
   contactEmail = 'haocopider544@gmail.com';
-  cvUrl = '/cv/PHAN-NHUT-HAO-CV.pdf';
+  cvUrl = '/cv/PHAN-NHUT-HAO-CVL.pdf';
 
   stats = [
     { value: '3+', label: 'Launch-ready apps' },
@@ -85,16 +85,15 @@ export class HomeComponent {
       statusLabel: 'In development',
     },
     {
-      id: 'bida-class',
-      title: 'Bida Class',
-      description: 'An online learning experience for billiards coaching, from beginner fundamentals to advanced training plans.',
+      id: 'bida-trader',
+      title: 'Bida Trader',
+      description: 'A platform for trading billiards equipment, connecting buyers and sellers in a seamless experience.',
       longDescription:
-        'Bida Class brings structured lessons and a modern storefront experience together so learners can discover courses and stay inspired.',
-      tech: ['Angular', 'E-commerce', 'Learning flow'],
+        'Bida Trader provides a modern marketplace for billiards enthusiasts to buy and sell equipment with ease.',
+      tech: ['Blazor', 'E-commerce', 'Marketplace'],
       highlights: ['Course discovery', 'Structured lesson paths', 'Bright visual storytelling'],
-      image: 'https://matchroompool.com/wp-content/uploads/HANOI2024-1920x1080-2.jpg',
-      isAvailable: false,
-      statusLabel: 'In development',
+      image: 'https://github.com/haocopider/portfolio/blob/main/src/assets/bidatrader/home.png?raw=true',
+      isAvailable: false
     },
   ];
 

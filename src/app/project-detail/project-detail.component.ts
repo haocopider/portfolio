@@ -47,17 +47,23 @@ export class ProjectDetailComponent {
       ],
     },
     {
-      id: 'bida-class',
-      title: 'Bida Class',
-      description: 'A visually warm learning experience for coaching programs and course discovery.',
+      id: 'bida-trader',
+      title: 'Bida Trader',
+      description: 'A platform for trading billiards equipment, connecting buyers and sellers in a seamless experience.',
       longDescription:
-        'Designed to guide learners from first lesson to advanced training, the experience balances polished visuals with a practical content structure.',
-      tech: ['Angular', 'E-commerce', 'Learning flow'],
-      highlights: ['Course browsing', 'Structured curriculum', 'Conversion-focused experience'],
+        'Bida Trader provides a modern marketplace for billiards enthusiasts to buy and sell equipment with ease.',
+      tech: ['Blazor', 'E-commerce', 'Marketplace'],
+      highlights: ['Course discovery', 'Structured lesson paths', 'Bright visual storytelling'],
       images: [
-        'https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=900&q=80',
-        'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80',
-        'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=900&q=80',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bidatrader/home.png?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bidatrader/product.png?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bidatrader/cart.png?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bidatrader/profile.png?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bidatrader/order.png?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bidatrader/role.png?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bidatrader/dashboard.png?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bidatrader/s-order.png?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bidatrader/account.png?raw=true'
       ],
     },
   ];
