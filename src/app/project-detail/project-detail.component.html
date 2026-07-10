@@ -8,6 +8,7 @@
       <div class="title-row">
         <h1>{{ project.title }}</h1>
         <a
+        *ngIf="project.url?.trim()"
           class="visit-project-btn"
           [href]="project.url"
           target="_blank"
@@ -33,6 +34,13 @@
   </section>
 
   <section class="gallery">
-    <img *ngFor="let image of project.images" [src]="image" [alt]="project.title" />
+    <figure class="gallery-item" *ngFor="let image of project.images">
+      <img
+        [src]="image"
+        [alt]="project.title"
+        [ngClass]="imageOrientation[image]"
+        (load)="onImageLoad(image, $event)"
+      />
+    </figure>
   </section>
 </main>

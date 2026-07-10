@@ -11,8 +11,8 @@
   align-items: center;
   padding: 1.2rem 2rem;
   backdrop-filter: blur(16px);
-  background: rgba(8, 14, 30, 0.72);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.92);
+  border-bottom: 1px solid rgba(79, 125, 227, 0.12);
 }
 
 .brand {
@@ -20,7 +20,7 @@
   font-weight: 700;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
-  color: #f5f7ff;
+  color: #10294f;
 }
 
 .site-nav {
@@ -29,12 +29,12 @@
 }
 
 .site-nav a {
-  color: #cdd4e6;
+  color: #4f6d9d;
   font-size: 0.95rem;
 }
 
 .site-nav a:hover {
-  color: #ffffff;
+  color: #10294f;
 }
 
 main {
@@ -55,7 +55,7 @@ main {
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   font-size: 0.8rem;
-  color: #8aa2ff;
+  color: #4f7de8;
   font-weight: 700;
   margin-bottom: 0.8rem;
 }
@@ -64,22 +64,22 @@ main {
   font-size: clamp(2.3rem, 4.5vw, 4rem);
   line-height: 1.05;
   margin: 0 0 0.5rem;
-  color: #ffffff;
+  color: #10294f;
 }
 
 .hero h1 span {
-  color: #8aa2ff;
+  color: #4f7df4;
 }
 
 .hero h2 {
   font-size: 1.15rem;
-  color: #d8def0;
+  color: #334a72;
   margin-bottom: 1rem;
   font-weight: 500;
 }
 
 .hero p {
-  color: #b3bdd9;
+  color: #4f617f;
   line-height: 1.7;
 }
 
@@ -104,12 +104,13 @@ main {
 .btn-primary {
   background: linear-gradient(135deg, #7c9cff, #4f6df3);
   color: white;
-  box-shadow: 0 14px 30px rgba(79, 109, 243, 0.25);
+  box-shadow: 0 14px 30px rgba(79, 109, 243, 0.18);
 }
 
 .btn-secondary {
-  border-color: rgba(255, 255, 255, 0.2);
-  color: #f5f7ff;
+  border-color: rgba(79, 125, 227, 0.18);
+  color: #10294f;
+  background: rgba(223, 236, 255, 0.9);
 }
 
 .social-links {
@@ -119,20 +120,20 @@ main {
 }
 
 .social-links a {
-  color: #d5dcf5;
+  color: #10294f;
   padding: 0.5rem 0.8rem;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(223, 236, 255, 0.75);
 }
 
 .hero-card,
 .skill-card,
 .project-card,
 .stat-card {
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.09);
+  background: #ffffff;
+  border: 1px solid rgba(79, 125, 227, 0.16);
   border-radius: 1.2rem;
-  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 20px 45px rgba(16, 41, 79, 0.06);
 }
 
 .hero-card {
@@ -143,8 +144,8 @@ main {
   display: inline-block;
   padding: 0.35rem 0.7rem;
   border-radius: 999px;
-  background: rgba(138, 162, 255, 0.15);
-  color: #9fb2ff;
+  background: #e4efff;
+  color: #3d76e4;
   font-size: 0.8rem;
   margin-bottom: 1rem;
 }
@@ -152,13 +153,13 @@ main {
 .hero-card h3,
 .skill-card h3,
 .project-card h3 {
-  color: #ffffff;
+  color: #10294f;
   margin-bottom: 0.7rem;
 }
 
 .hero-card ul {
   padding-left: 1rem;
-  color: #c7d0ea;
+  color: #4f617f;
   margin-top: 1rem;
 }
 

@@ -14,6 +14,8 @@ export class ProjectDetailComponent {
 
   projectId = this.route.snapshot.paramMap.get('id') ?? '';
 
+  imageOrientation: Record<string, 'portrait' | 'landscape'> = {};
+
   projects = [
     {
       id: 'bida-score',
@@ -33,17 +35,43 @@ export class ProjectDetailComponent {
       ],
     },
     {
-      id: 'bida-tournament',
-      title: 'Bida Tournament',
-      description: 'An organizing tool that supports tournament operations and player engagement.',
+      id: 'bookstore-web-admin',
+      title: 'Bookstore Admin',
+      description: 'A polished admin panel for managing inventory, orders, promotions, and support workflows.',
       longDescription:
-        'This project brings together scheduling, communication, and real-time updates so events feel structured without losing the human side of the experience.',
-      tech: ['Angular', 'Flutter', 'Real-time'],
-      highlights: ['Tournament dashboard', 'Live updates', 'Participant-friendly experience'],
+        'This web admin experience helps store teams manage inventory, monitor sales, and launch campaigns from a clean, actionable dashboard.',
+      tech: ['Angular', '.NET', 'Admin UX'],
+      highlights: ['Inventory control', 'Order and customer oversight', 'Promotion management'],
       images: [
-        'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=900&q=80',
-        'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80',
-        'https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bookstore-web-admin/dashboard.png?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bookstore-web-admin/order.png?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bookstore-web-admin/order-detail.png?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bookstore-web-admin/product.png?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bookstore-web-admin/create-update-product.png?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bookstore-web-admin/promotion.png?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bookstore-web-admin/create-update-promotion.png?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bookstore-web-admin/human-resource.png?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bookstore-web-admin/role-perm.png?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bookstore-web-admin/category.png?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bookstore-web-admin/author.png?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bookstore-web-admin/chating.png?raw=true'
+      ],
+    },
+    {
+      id: 'bookstore-mobile-app',
+      title: 'Bookstore Mobile',
+      description: 'A customer-facing mobile storefront for browsing, searching, and purchasing books.',
+      longDescription:
+        'The mobile app blends product discovery with an easy checkout flow, making it simple for people to find new books and manage their account on the go.',
+      tech: ['Flutter', 'Mobile commerce', 'Responsive UI'],
+      highlights: ['Search-driven browsing', 'Simple checkout experience', 'Account and cart management'],
+      images: [
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bookstore-moblie-app/home.png?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bookstore-moblie-app/search.png?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bookstore-moblie-app/product.png?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bookstore-moblie-app/cart-checkout.png?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bookstore-moblie-app/account.png?raw=true',
+        'https://github.com/haocopider/portfolio/blob/main/src/assets/bookstore-moblie-app/login-register.png?raw=true',
       ],
     },
     {
@@ -53,20 +81,22 @@ export class ProjectDetailComponent {
       longDescription:
         'Bida Trader provides a modern marketplace for billiards enthusiasts to buy and sell equipment with ease.',
       tech: ['Blazor', 'E-commerce', 'Marketplace'],
-      highlights: ['Course discovery', 'Structured lesson paths', 'Bright visual storytelling'],
+      highlights: ['Real-time listings', 'Secure checkout flow', 'Clear product details'],
       images: [
         'https://github.com/haocopider/portfolio/blob/main/src/assets/bidatrader/home.png?raw=true',
         'https://github.com/haocopider/portfolio/blob/main/src/assets/bidatrader/product.png?raw=true',
         'https://github.com/haocopider/portfolio/blob/main/src/assets/bidatrader/cart.png?raw=true',
         'https://github.com/haocopider/portfolio/blob/main/src/assets/bidatrader/profile.png?raw=true',
         'https://github.com/haocopider/portfolio/blob/main/src/assets/bidatrader/order.png?raw=true',
-        'https://github.com/haocopider/portfolio/blob/main/src/assets/bidatrader/role.png?raw=true',
         'https://github.com/haocopider/portfolio/blob/main/src/assets/bidatrader/dashboard.png?raw=true',
-        'https://github.com/haocopider/portfolio/blob/main/src/assets/bidatrader/s-order.png?raw=true',
-        'https://github.com/haocopider/portfolio/blob/main/src/assets/bidatrader/account.png?raw=true'
       ],
     },
   ];
 
   project = this.projects.find((item) => item.id === this.projectId) ?? this.projects[0];
+
+  onImageLoad(image: string, event: Event) {
+    const img = event.target as HTMLImageElement;
+    this.imageOrientation[image] = img.naturalWidth >= img.naturalHeight ? 'landscape' : 'portrait';
+  }
 }

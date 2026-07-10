@@ -30,11 +30,11 @@ interface Skill {
 export class HomeComponent {
   title = 'ITer Portfolio';
   name = 'Hao Copider';
-  role = 'Product-minded Full-Stack Developer';
+  role = 'Full-Stack Developer';
   summary =
     'I craft bright, thoughtful digital experiences with Angular, .NET, Flutter, and a strong focus on clarity, performance, and user delight.';
   contactEmail = 'haocopider544@gmail.com';
-  cvUrl = '/cv/PHAN-NHUT-HAO-CVL.pdf';
+  cvUrl = '/cv/PHAN-NHUT-HAO-CV.pdf';
 
   stats = [
     { value: '3+', label: 'Launch-ready apps' },
@@ -67,22 +67,32 @@ export class HomeComponent {
       description: 'A lively app for tracking pool matches with a simple, fast experience for casual and competitive players.',
       longDescription:
         'Bida Score was designed to make scorekeeping feel effortless during every match. The app focuses on clarity, quick interactions, and a lightweight experience that players can use right away.',
-      tech: ['Flutter', 'Mobile UX', 'Product Design'],
+      tech: ['Flutter', 'Tool', 'Free'],
       highlights: ['Real-time match tracking', 'Clean score history', 'Accessible interactions'],
       image: 'https://github.com/haocopider/portfolio/blob/main/src/assets/bidascore/penalty_screen.jpg?raw=true',
       isAvailable: true,
     },
     {
-      id: 'bida-tournament',
-      title: 'Bida Tournament',
-      description: 'A digital platform for managing tournaments, helping organizers coordinate events and keep players informed.',
+      id: 'bookstore-web-admin',
+      title: 'Bookstore Admin',
+      description: 'A polished admin panel for managing inventory, orders, promotions, and customer workflows.',
       longDescription:
-        'The tournament experience combines web and mobile touchpoints so organizers can manage the event while participants stay updated in real time.',
-      tech: ['Angular', 'Flutter', 'Real-time'],
-      highlights: ['Organizer dashboard', 'Live event updates', 'Player-friendly mobile flow'],
-      image: 'https://img.freepik.com/free-vector/gradient-tournament-schedule-template_52683-95156.jpg',
-      isAvailable: false,
-      statusLabel: 'In development',
+        'This web admin experience was built to help store managers move quickly through stock updates, order fulfillment, and promotional campaigns with confidence.',
+      tech: ['Blazor', 'ASP.NET Core API', 'Admin UX'],
+      highlights: ['Inventory control', 'Promotion management', 'Order overview dashboards'],
+      image: 'https://github.com/haocopider/portfolio/blob/main/src/assets/bookstore-web-admin/dashboard.png?raw=true',
+      isAvailable: true,
+    },
+    {
+      id: 'bookstore-mobile-app',
+      title: 'Bookstore Mobile',
+      description: 'A mobile shopping experience for readers, with quick browsing, checkout, and account management.',
+      longDescription:
+        'The mobile app combines inviting product discovery with a smooth checkout flow so customers can search and buy books anytime, anywhere.',
+      tech: ['Flutter', 'Mobile commerce', 'Customer experience'],
+      highlights: ['Search and browse', 'Mobile checkout', 'User account dashboard'],
+      image: 'https://github.com/haocopider/portfolio/blob/main/src/assets/bookstore-moblie-app/home.png?raw=true',
+      isAvailable: true,
     },
     {
       id: 'bida-trader',
@@ -90,10 +100,10 @@ export class HomeComponent {
       description: 'A platform for trading billiards equipment, connecting buyers and sellers in a seamless experience.',
       longDescription:
         'Bida Trader provides a modern marketplace for billiards enthusiasts to buy and sell equipment with ease.',
-      tech: ['Blazor', 'E-commerce', 'Marketplace'],
-      highlights: ['Course discovery', 'Structured lesson paths', 'Bright visual storytelling'],
+      tech: ['Blazor', 'ASP.NET Core API', 'E-commerce'],
+      highlights: ['Real-time', 'Secure transactions', 'User-friendly interface'],
       image: 'https://github.com/haocopider/portfolio/blob/main/src/assets/bidatrader/home.png?raw=true',
-      isAvailable: false
+      isAvailable: true,
     },
   ];
 

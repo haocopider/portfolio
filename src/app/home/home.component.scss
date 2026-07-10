@@ -22,7 +22,7 @@
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   font-size: 0.78rem;
-  color: #6a8cff;
+  color: #4f7de8;
   font-weight: 700;
   margin-bottom: 0.8rem;
 }
@@ -31,22 +31,22 @@
   font-size: clamp(2.25rem, 4.6vw, 4rem);
   line-height: 1.05;
   margin: 0 0 0.5rem;
-  color: #ffffff;
+  color: #10294f;
 }
 
 .hero h1 span {
-  color: #8fb0ff;
+  color: #4f7df4;
 }
 
 .hero h2 {
   font-size: 1.15rem;
-  color: #dce6ff;
+  color: #334a72;
   margin-bottom: 1rem;
   font-weight: 500;
 }
 
 .hero p {
-  color: #b8c7ea;
+  color: #4f617f;
   line-height: 1.75;
 }
 
@@ -73,25 +73,26 @@
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #8fb0ff, #4f6df3);
+  background: linear-gradient(135deg, #6697ff, #4f7df4);
   color: white;
-  box-shadow: 0 14px 30px rgba(79, 109, 243, 0.25);
+  box-shadow: 0 14px 30px rgba(79, 109, 243, 0.18);
 }
 
 .btn-secondary {
-  border-color: rgba(255, 255, 255, 0.2);
-  color: #f2f6ff;
+  border-color: rgba(79, 125, 227, 0.18);
+  color: #10294f;
+  background: rgba(223, 236, 255, 0.85);
 }
 
 .btn-download {
-  background: rgba(235, 4, 4, 0.87);
-  color: #f2f6ff;
-  border-color: rgb(243, 245, 248);
+  background: #ff8fb0;
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.18);
   gap: 0.55rem;
 }
 
 .btn-download:hover {
-  background: rgba(143, 176, 255, 0.16);
+  background: #ff6f97;
 }
 
 .social-links {
@@ -107,14 +108,14 @@
   padding: 10px 16px;
   border-radius: 12px;
   text-decoration: none;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.08);
+  color: #10294f;
+  background: rgba(223, 236, 255, 0.75);
   transition: all 0.3s ease;
 }
 
 .social-links a:hover {
   transform: translateY(-2px);
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(223, 236, 255, 1);
 }
 
 .social-links i {
@@ -125,10 +126,10 @@
 .skill-card,
 .project-card,
 .stat-card {
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #ffffff;
+  border: 1px solid rgba(79, 125, 227, 0.16);
   border-radius: 1.25rem;
-  box-shadow: 0 22px 40px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 22px 40px rgba(16, 41, 79, 0.06);
 }
 
 .hero-card {
@@ -139,8 +140,8 @@
   display: inline-block;
   padding: 0.35rem 0.7rem;
   border-radius: 999px;
-  background: rgba(143, 176, 255, 0.16);
-  color: #b7ccff;
+  background: #e4efff;
+  color: #3d76e4;
   font-size: 0.8rem;
   margin-bottom: 1rem;
 }
@@ -148,13 +149,13 @@
 .hero-card h3,
 .skill-card h3,
 .project-card h3 {
-  color: #ffffff;
+  color: #10294f;
   margin-bottom: 0.7rem;
 }
 
 .hero-card ul {
   padding-left: 1rem;
-  color: #c7d3eb;
+  color: #4f617f;
   margin-top: 1rem;
 }
 
@@ -167,7 +168,7 @@
 }
 
 .section-heading h2 {
-  color: #ffffff;
+  color: #10294f;
   font-size: clamp(1.35rem, 2vw, 1.8rem);
   margin: 0;
 }
@@ -180,7 +181,7 @@
 }
 
 .about-grid p {
-  color: #c3d0ed;
+  color: #4f617f;
 }
 
 .stats {
@@ -196,11 +197,11 @@
 .stat-card strong {
   display: block;
   font-size: 1.3rem;
-  color: #ffffff;
+  color: #10294f;
 }
 
 .stat-card span {
-  color: #b3bdd9;
+  color: #62769b;
   font-size: 0.9rem;
 }
 
@@ -233,14 +234,14 @@
 
 .tech-list span {
   padding: 0.35rem 0.65rem;
-  background: rgba(143, 176, 255, 0.16);
-  color: #dce6ff;
+  background: #e6f0ff;
+  color: #2353a8;
   border-radius: 999px;
   font-size: 0.8rem;
 }
 
 .project-card a {
-  color: #8fb0ff;
+  color: #4f7df4;
   font-weight: 600;
 }
 
@@ -257,14 +258,14 @@
   align-items: center;
   padding: 0.35rem 0.7rem;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.08);
-  color: #dce6ff;
+  background: #eaf2ff;
+  color: #3e69c2;
   font-size: 0.8rem;
   font-weight: 600;
 }
 
 .disabled-link {
-  color: #9fb0d8;
+  color: #7a8fad;
   font-size: 0.95rem;
   font-weight: 600;
 }
